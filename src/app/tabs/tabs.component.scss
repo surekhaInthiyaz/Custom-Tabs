@@ -1,0 +1,24 @@
+ul {
+ display: flex;
+}li {
+    height: 48px;
+    padding: 0 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    opacity: .6;
+    min-width: 160px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+}
+hr{
+    border-top: 1px solid #ccc; 
+    margin: -1em 0;
+}
+ // ul li:hover {background: #666;}
+ .active{
+     border-bottom: 2px black solid;
+ }

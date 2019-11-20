@@ -1,0 +1,10 @@
+<ul>
+      <ng-container  *ngFor="let tab of tabs let i=index">
+            <li [ngClass]="{'active' : selectedItem === tab.tabtitle} " (click)="setTab(tab, tab.tabtitle)">
+                  {{tab.tabtitle}}
+            </li>
+      </ng-container>
+
+</ul>
+<hr />
+<router-outlet></router-outlet>
